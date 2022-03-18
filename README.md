@@ -1,0 +1,3 @@
+```
+pip install kivy kivymd
+```
