@@ -1,0 +1,53 @@
+BoxLayout:
+    orientation: 'vertical'
+    
+    MDToolbar:
+        title: "Configuration Des Seuils"
+        md_bg_color: .2,.2,.2,1
+    
+    MDBottomNavigation:
+
+        MDBottomNavigationItem:
+            name:"screen 1"
+            text:"Signal"
+            icon: 'signal-2g'
+            MDGridLayout:
+                md_bg_color: .1,.1,.1,.1
+                rows:2
+                cols:2
+                MDLabel:
+                    text: "Pki Drop"
+                    halign: 'center'
+                MDLabel:
+                    text: "0.1%"
+                    halign: 'center'
+                MDLabel:
+                    text: "Pki Disp"
+                    halign: 'center'
+                MDLabel:
+                    text: "98%"
+                    halign: 'center'
+            MDRectangleFlatIconButton:
+                text: "Execute"
+                icon: "check-circle"
+                pos_hint: {"center_x": .5 ,"center_y":.1}      
+
+
+        MDBottomNavigationItem:
+            name:"screen 2"
+            text:"Signal"
+            icon: 'signal-3g'
+            
+            MDLabel:
+                text: "3G"
+                halign: 'center'
+                
+        
+        MDBottomNavigationItem:
+            name:"screen 3"
+            text:"Signal"
+            icon: 'signal-4g'
+            
+            MDLabel:
+                text: "4G"
+                halign: 'center'
