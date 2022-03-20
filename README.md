@@ -1,3 +1,3 @@
 ```
-pip install kivy kivymd
+pip install Pyqt5 paho-mqtt 
 ```
